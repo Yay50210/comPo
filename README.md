@@ -27,5 +27,5 @@ This is a simple hotel management application developed using Qt.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/qt-hotel-management.git
+   git clone https://github.com/yourusername/qt-hotel-management.git](https://github.com/Yay50210/comPo)https://github.com/Yay50210/comPo
    cd qt-hotel-management

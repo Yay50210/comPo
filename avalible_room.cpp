@@ -1,6 +1,6 @@
 #include "avalible_room.h"
 #include "ui_avalible_room.h"
-#include "name.h"
+#include "newname.h"
 
 avalible_room::avalible_room(QWidget *parent)
     : QDialog(parent)
@@ -17,24 +17,26 @@ avalible_room::~avalible_room()
 void avalible_room::on_pushButton_clicked()
 {
 
-name list;
+NewName list;
 list.setModal(true);
 list.exec();
+ui->pushButton->setStyleSheet("background-color: red;");
 
 }
 
 
 void avalible_room::on_pushButton_2_clicked()
 {
-    name list;
+    NewName list;
     list.setModal(true);
     list.exec();
+
 }
 
 
 void avalible_room::on_pushButton_3_clicked()
 {
-    name list;
+    NewName list;
     list.setModal(true);
     list.exec();
 }
@@ -42,7 +44,7 @@ void avalible_room::on_pushButton_3_clicked()
 
 void avalible_room::on_pushButton_5_clicked()
 {
-    name list;
+    NewName list;
     list.setModal(true);
     list.exec();
 }

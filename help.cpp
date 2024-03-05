@@ -6,7 +6,7 @@ Help::Help(QWidget *parent)
     , ui(new Ui::Help)
 {
     ui->setupUi(this);
-    QPixmap pix("C:/Users/User/Desktop/New folder/Map");
+    QPixmap pix(":/img/img/Map.jpg");
     ui->label_pic_2->setPixmap(pix.scaled(325,325,Qt::KeepAspectRatio));
 
 }

@@ -2,6 +2,10 @@
 #define NAME_H
 
 #include <QDialog>
+#include "databaseheader.h"
+
+
+
 
 namespace Ui {
 class name;
@@ -16,7 +20,13 @@ public:
     ~name();
 
 private slots:
-    void on_buttonBox_accepted();
+
+
+
+
+
+
+    void on_btnsave_clicked();
 
 private:
     Ui::name *ui;

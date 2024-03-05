@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Clear Room</string>
+     <string>Check/Clear</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
@@ -37,7 +37,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Avalible Room</string>
+     <string>Room Detail</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">

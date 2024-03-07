@@ -34,7 +34,9 @@ QString otp::GenerateOTP(int length)
 void otp::on_pushButton_clicked()
 {
     QString randomOTP = ui->otpinput->text();
-
+if(randomOTP.isEmpty()){
+    QMessageBox::warning(this, "", "OTP Not Correct");
+}else{
     if (randomOTP == generatedOTP) {
         QMessageBox::information(this, "", "Purchased");
         qApp->quit();//when clicked ok app will quit suddenly
@@ -50,4 +52,5 @@ void otp::on_pushButton_clicked()
     }else{
         QMessageBox::warning(this, "", "OTP Not Correct");
     }
+}
 }
